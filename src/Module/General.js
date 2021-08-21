@@ -55,11 +55,11 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://www.instagram.com/limbohacks/",
-  discord: "https://discord.com/invite/8XJSzmtWPp",
-  linkedin: "https://www.linkedin.com/company/limbo-hacks/",
-  twitter: "https://twitter.com/HacksLimbo",
-  devpost: "https://limbo-hacks-12968.devpost.com/",
+  instagram: "https://www.instagram.com/",
+  discord: "https://discord.com/",
+  linkedin: "https://www.linkedin.com/",
+  twitter: "https://twitter.com/",
+  devpost: "https://devpost.com/",
   email: "mailto:hi@limbohacks.tech",
   mail: "hi@hackmafest.tech"
 };
@@ -75,11 +75,11 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u"
+    src: "https://forms.office.com/"
   },
   JOIN_TEAM: {
     required: true,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u"
+    src: "https://forms.office.com/"
   },
   Privacy_policy: {
     required: true,
@@ -229,10 +229,7 @@ const TeamInfo = [
       github: "",
       linkedin: "",
       img: keshav
-    }
-  ],
-  [
-    //Array 3
+    },
     {
       Name: "Taskeen Fatima",
       role: "Community Manager",
@@ -240,7 +237,9 @@ const TeamInfo = [
       linkedin: "",
       img: Pravallika
     }
-  ]
+
+  ],
+  
 ];
 
 /** Instructions
