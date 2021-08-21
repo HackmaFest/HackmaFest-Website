@@ -35,10 +35,10 @@ import kk from "./Assets/teami/kk.png";
 import boy from "./Assets/boy.png";
 
 const TOP_SECTION = {
-  TITLE: "Join Limbo Hacks",
-  Typed_effect: ["24 hours of creation", "Win awesome prizes"],
+  TITLE: "HackmaFest",
+  Typed_effect: ["Weeklong Hackathon Festival", "Win awesome prizes"],
   SHORT_DESCRIPTION:
-    "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
+    "Join us on 20th October 2021 with over 1000 students from across the world for 5 days of learning and 36 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
@@ -53,8 +53,8 @@ const SOCIALS = {
   linkedin: "https://www.linkedin.com/company/limbo-hacks/",
   twitter: "https://twitter.com/HacksLimbo",
   devpost: "https://limbo-hacks-12968.devpost.com/",
-  email: "mailto:hello@limbohacks.tech",
-  mail: "hello@limbohacks.tech"
+  email: "mailto:hi@limbohacks.tech",
+  mail: "hi@hackmafest.tech"
 };
 
 const MIDDLE_SECTION = {
@@ -162,21 +162,21 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Rehan",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: me
+      Name: "Farhan Ashraf",
+      role: "Lead Organizer",
+      github: "github.com/mriceflame",
+      linkedin: "linkedin.com/s4a",
+      img: farhan
     },
     {
-      Name: "Moon",
+      Name: "Awais",
       role: "Organizer",
       github: "",
       linkedin: "",
       img: moon
     },
     {
-      Name: "Ryah Garcia",
+      Name: "Usman Hamid",
       role: "Organizer",
       github: "",
       linkedin: "",
@@ -186,22 +186,22 @@ const TeamInfo = [
   [
     //Array 2
     {
-      Name: "Lyanola",
+      Name: "Sameer",
       role: "Organizer",
       github: "",
       linkedin: "",
       img: lyin
     },
     {
-      Name: "Zoheb",
-      role: "Organizer",
+      Name: "Sidra",
+      role: "Head Promotions",
       github: "",
       linkedin: "",
       img: zoha
     },
     {
-      Name: "Karishma",
-      role: "Organizer",
+      Name: "Tauqeer",
+      role: "Event Head",
       github: "",
       linkedin: "",
       img: kk
@@ -210,18 +210,28 @@ const TeamInfo = [
   [
     //Array 3
     {
-      Name: "Pravallika",
-      role: "Organizer",
+      Name: "Usama Rafay",
+      role: "Technical Support Team head",
       github: "",
       linkedin: "",
       img: Pravallika
     },
     {
-      Name: "Keshav",
-      role: "Organizer",
+      Name: "Asim Nawaz",
+      role: "Resource Team head",
       github: "",
       linkedin: "",
       img: keshav
+    }
+  ],
+  [
+    //Array 3
+    {
+      Name: "Taskeen Fatima",
+      role: "Community Manager",
+      github: "",
+      linkedin: "",
+      img: Pravallika
     }
   ]
 ];
