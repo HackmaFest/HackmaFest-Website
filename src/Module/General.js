@@ -19,13 +19,20 @@ import ACF from "./Assets/sponsorsLogos/ACF.png";
 
 // Importing all Team members images  from Assets
 import me from "./Assets/teami/me.png";
+import farhan from "./Assets/teami/farhan.jpg";
 import moon from "./Assets/teami/moon.png";
 import Ryah from "./Assets/teami/Ryah.jpg";
 import lyin from "./Assets/teami/lyin.jpg";
 import Pravallika from "./Assets/teami/pravallika.jpg";
-import keshav from "./Assets/teami/keshav.jpg";
-import zoha from "./Assets/teami/zoha.png";
+//import keshav from "./Assets/teami/keshav.jpg";
+import sidra from "./Assets/teami/Sidra.png";
+import usama from "./Assets/teami/usama.png";
+import usman from "./Assets/teami/usman.png";
 import kk from "./Assets/teami/kk.png";
+import keshav from "./Assets/teami/keshav.jpg";
+
+
+
 
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
@@ -180,7 +187,7 @@ const TeamInfo = [
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: Ryah
+      img: usman
     }
   ],
   [
@@ -197,7 +204,7 @@ const TeamInfo = [
       role: "Head Promotions",
       github: "",
       linkedin: "",
-      img: zoha
+      img: sidra
     },
     {
       Name: "Tauqeer",
@@ -214,7 +221,7 @@ const TeamInfo = [
       role: "Technical Support Team head",
       github: "",
       linkedin: "",
-      img: Pravallika
+      img: usama
     },
     {
       Name: "Asim Nawaz",
