@@ -43,7 +43,7 @@ import boy from "./Assets/boy.png";
 
 const TOP_SECTION = {
   TITLE: "HackmaFest",
-  Typed_effect: ["Weeklong Hackathon Festival", "Win awesome prizes"],
+  Typed_effect: ["Hack For Community", "Hack For Diversity","Hack For Inclusion"],
   SHORT_DESCRIPTION:
     "Join us on 20th October 2021 with over 1000 students from across the world for 5 days of learning and 36 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
@@ -67,7 +67,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is Hackmafest?",
   LONG_DESCRIPTION:
-    "Hackmafest is a weeklong festival to welcome beginners hacker to hackers communities and hackathons followed by a 36 hour long running hackathon will be held on October 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
+    "Hackmafest is a weeklong festival to welcome beginners hacker to hackers communities and hackathons followed by a 36 hour long running hackathon will be held on October 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Hackmafest will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
   LOGO_EFFECT: true,
   LOGO: ""
 };
