@@ -1,16 +1,19 @@
 // Importing all sponsors logos from Assets
-import taskade from "./Assets/sponsorsLogos/taskade.png";
-import Replit from "./Assets/sponsorsLogos/replit.png";
-import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
-import echoAR from "./Assets/sponsorsLogos/echoAR.png";
-import cfc from "./Assets/sponsorsLogos/cfc.png";
-import pass from "./Assets/sponsorsLogos/1pass.png";
-import glimpse from "./Assets/sponsorsLogos/glimpse.png";
+//import taskade from "./Assets/sponsorsLogos/taskade.png";
+import replit from "./Assets/sponsorsLogos/replit.png";
+import dev from "./Assets/sponsorsLogos/dev-black.png";
+import BU from "./Assets/sponsorsLogos/BU.png";
+import hcb from "./Assets/sponsorsLogos/hackclubbank.png";
+//import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
+//import echoAR from "./Assets/sponsorsLogos/echoAR.png";
+//import cfc from "./Assets/sponsorsLogos/cfc.png";
+//import pass from "./Assets/sponsorsLogos/1pass.png";
+//import glimpse from "./Assets/sponsorsLogos/glimpse.png";
 import qoom from "./Assets/sponsorsLogos/qoom.svg";
-import sublime from "./Assets/sponsorsLogos/sublime.png";
+//import sublime from "./Assets/sponsorsLogos/sublime.png";
 import egg from "./Assets/sponsorsLogos/egg.png";
-import ll from "./Assets/sponsorsLogos/ll.png";
-import ACF from "./Assets/sponsorsLogos/ACF.png";
+//import ll from "./Assets/sponsorsLogos/ll.png";
+//import ACF from "./Assets/sponsorsLogos/ACF.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -18,10 +21,10 @@ import ACF from "./Assets/sponsorsLogos/ACF.png";
  */
 
 // Importing all Team members images  from Assets
-import me from "./Assets/teami/me.png";
+//import me from "./Assets/teami/me.png";
 import farhan from "./Assets/teami/farhan.jpg";
 import moon from "./Assets/teami/moon.png";
-import Ryah from "./Assets/teami/Ryah.jpg";
+//import Ryah from "./Assets/teami/Ryah.jpg";
 import lyin from "./Assets/teami/lyin.jpg";
 import Pravallika from "./Assets/teami/pravallika.jpg";
 //import keshav from "./Assets/teami/keshav.jpg";
@@ -45,21 +48,21 @@ const TOP_SECTION = {
   TITLE: "HackmaFest",
   Typed_effect: ["Hack For Community", "Hack For Diversity","Hack For Inclusion"],
   SHORT_DESCRIPTION:
-    "Join us on 20th October 2021 with over 1000 students from across the world for 5 days of learning and 36 hours of creation, innovation, & fun.",
+    "Join us on 20th October 2021 with over 1000 students from across the world for a weeklong of creation, innovation, & fun. 5 days are dedicated to learning and 36 hours For hacking.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
+    "http://speakerform.hackmafest.tech/",
   HACKERS_REGISTRATION_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u"
+    "http://hackerform.hackmafest.tech/"
 };
 
 const SOCIALS = {
-  instagram: "https://www.instagram.com/",
-  discord: "https://discord.com/",
-  linkedin: "https://www.linkedin.com/",
-  twitter: "https://twitter.com/",
-  devpost: "https://devpost.com/",
+  instagram: "https://www.instagram.hackmafest.tech",
+  discord: "https://discord.hackmafest.tech",
+  linkedin: "https://www.linkedin.hackmafest.tech/",
+  twitter: "https://twitter.hackmafest.tech/",
+  devpost: "https://devpost.hackmafest.tech/",
   email: "mailto:hi@limbohacks.tech",
   mail: "hi@hackmafest.tech"
 };
@@ -75,19 +78,19 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: "https://forms.office.com/"
+    src: "https://volunteerform.hackmafest.tech/"
   },
   JOIN_TEAM: {
     required: true,
-    src: "https://forms.office.com/"
+    src: "http://speakerform.hackmafest.tech/"
   },
   Privacy_policy: {
     required: true,
-    src: ""
+    src: "https://privacypolicy.hackmafest.tech/"
   },
   Terms_of_use: {
     required: true,
-    src: ""
+    src: "https://tom.hackmafest.tech"
   }
 };
 
@@ -108,55 +111,63 @@ const Prizeinfo = [
     //Array 1
     {
       icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: "overall First",
+      type: "Prizes Detail are Coming soon",
       content:
-        "First Overall prize will be given to a project that outstands all other submissions"
-    },
-    {
-      icon: <i class=" second fas fa-4x fa-medal"></i>,
-      type: "overall Second",
-      content:
-        "Second Overall prize will be given to the second best project of the hackathon"
-    },
-    {
-      icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: "Third Second",
-      content:
-        "Best third overall project of the hackathon will win some awesome prizes"
-    }
-  ],
-  [
-    //Array 2
-    {
-      icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: "Best Solo",
-      content:
-        "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team"
-    },
-    {
-      icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: " Best Beginner",
-      content: "Your project will qualify for this category if atleast 50% "
-    },
-    {
-      icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
-      type: "Best UI/UX",
-      content: "Project with most creative designs will be UI/UX track"
-    }
-  ],
-  [
-    //Array 3
-    {
-      icon: <i class="fas fa-4x sixth fa-male"></i>,
-      type: "Best Web App with Qoom",
-      content: "Must use qoom in your project to win this category"
-    },
-    {
-      icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
-      type: "More prizes",
-      content: "More prizes will be revealed later"
-    }
-  ]
+        "There will be some amazing prizes dont worry :)"
+     }
+  //  {
+  //   icon: <i class="first fas fa-4x fa-trophy"></i>,
+  //   type: "overall First",
+  //   content:
+  //     "First Overall prize will be given to a project that outstands all other submissions"
+  //  }
+,
+  //   {
+  //     icon: <i class=" second fas fa-4x fa-medal"></i>,
+  //     type: "overall Second",
+  //     content:
+  //       "Second Overall prize will be given to the second best project of the hackathon"
+  //   },
+  //   {
+  //     icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
+  //     type: "Third Second",
+  //     content:
+  //       "Best third overall project of the hackathon will win some awesome prizes"
+  //   }
+  // ],
+  // [
+  //   //Array 2
+  //   {
+  //     icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
+  //     type: "Best Solo",
+  //     content:
+  //       "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team"
+  //   },
+  //   {
+  //     icon: <i class="first fas fa-4x fa-trophy"></i>,
+  //     type: " Best Beginner",
+  //     content: "Your project will qualify for this category if hackmafest is your first hackathon."
+  //   },
+  //   {
+  //     icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
+  //     type: "Best UI/UX",
+  //     content: "Project with most creative designs will be UI/UX track"
+  //   }
+  // ],
+  // [
+  //   //Array 3
+  //   {
+  //     icon: <i class="fas fa-4x sixth fa-male"></i>,
+  //     type: "Best Web App with Qoom",
+  //     content: "Must use qoom in your project to win this category"
+  //   },
+  //   {
+  //     icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
+  //     type: "More prizes",
+  //     content: "More prizes will be revealed later"
+  //   }
+  // ]
+    ]
 ];
 
 /** Instructions
@@ -171,8 +182,8 @@ const TeamInfo = [
     {
       Name: "Farhan Ashraf",
       role: "Lead Organizer",
-      github: "github.com/mriceflame",
-      linkedin: "linkedin.com/s4a",
+      github: "https://github.com/mriceflame",
+      linkedin: "https://www.linkedin.com/in/s4a/",
       img: farhan
     },
     {
@@ -248,11 +259,19 @@ const TeamInfo = [
  * in a group of 3.
  */
 
+// const sponsorLogos = [
+//  [{src: qoom, {src: Replit}, {src: egg}], //Array 1
+//   [{src: BU}, {src: hcb}, {src: dev}], //Array 2
+// //  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
+//  // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+// ];
+
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+ // [{src: qoom}, {src: Replit}, {src: egg}]
+   [{src: qoom}, {src: replit}, {src: egg}], //Array 1
+  [{src: BU}, {src: hcb}, {src: dev}] //Array 2
+ //Array 3
+ // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
 ];
 
 /** Instructions
@@ -295,7 +314,7 @@ const frequentlyAskedQuestions  = [
       ,
       {
         label: "What are the conduct of guidlines?",
-        content: "We strongly follow the MLH code of conduct, Our team members will enforce this code throughout the event. "
+        content: "We strongly follow the HackClub code of conduct, Our team members will enforce this code throughout the event. "
       }
     ]
   ],
