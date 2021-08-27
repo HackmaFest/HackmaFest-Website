@@ -21,18 +21,18 @@ import egg from "./Assets/sponsorsLogos/egg.png";
  */
 
 // Importing all Team members images  from Assets
-//import me from "./Assets/teami/me.png";
 import farhan from "./Assets/teami/farhan.jpg";
-import moon from "./Assets/teami/moon.png";
-//import Ryah from "./Assets/teami/Ryah.jpg";
-import lyin from "./Assets/teami/lyin.jpg";
-import Pravallika from "./Assets/teami/pravallika.jpg";
-//import keshav from "./Assets/teami/keshav.jpg";
+//import farhan from "./favicon_io/favicon.ico";
 import sidra from "./Assets/teami/Sidra.png";
 import usama from "./Assets/teami/usama.png";
 import usman from "./Assets/teami/usman.png";
-import kk from "./Assets/teami/kk.png";
-import keshav from "./Assets/teami/keshav.jpg";
+import asim from "./Assets/teami/asim.png";
+import taskeen from "./Assets/teami/taskeen.png";
+import tauqeer from "./Assets/teami/tauqeer.png";
+import sameer from "./Assets/teami/sameer.png";
+import awais from "./Assets/teami/awais.png"
+import hamid from "./Assets/teami/hamid.png";
+import azeem from "./Assets/teami/azeem.jpeg";
 
 
 
@@ -41,7 +41,7 @@ import keshav from "./Assets/teami/keshav.jpg";
  * and import them like in the above and update src in TeamInfo
  * or you can provide a cloud link in src also
  */
-
+import hackmafest from "./Assets/teami/hackmafest.png";
 import boy from "./Assets/boy.png";
 
 const TOP_SECTION = {
@@ -70,9 +70,9 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is Hackmafest?",
   LONG_DESCRIPTION:
-    "Hackmafest is a weeklong festival to welcome beginners hacker to hackers communities and hackathons followed by a 36 hour long running hackathon will be held on October 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Hackmafest will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
+    "Hackmafest is a weeklong festival to welcome beginners hacker to hackers communities and hackathons, there are 5 day in-person hackathon followed by a 36 hour long digital hackathon will be held on October 29th & 30th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Hackmafest will have unique opportunities to learn from each other trying hands in new technologies, on the most latest equipment provided by the organizers during hackathon We are determined to have an all-inclusive and diverse group of students attending.",
   LOGO_EFFECT: true,
-  LOGO: ""
+  LOGO: "LIMBOO"
 };
 
 const FOOTER = {
@@ -191,7 +191,7 @@ const TeamInfo = [
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: moon
+      img: awais
     },
     {
       Name: "Usman Hamid",
@@ -208,7 +208,7 @@ const TeamInfo = [
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: lyin
+      img: sameer
     },
     {
       Name: "Sidra",
@@ -222,7 +222,7 @@ const TeamInfo = [
       role: "Event Head",
       github: "",
       linkedin: "",
-      img: kk
+      img: tauqeer
     }
   ],
   [
@@ -239,18 +239,33 @@ const TeamInfo = [
       role: "Resource Team head",
       github: "",
       linkedin: "",
-      img: keshav
+      img: asim
     },
     {
       Name: "Taskeen Fatima",
       role: "Community Manager",
       github: "",
       linkedin: "",
-      img: Pravallika
+      img: taskeen
     }
 
   ],
-  
+  [
+    {
+      Name: "Azeem Farooqi",
+      role: "Content Writers Team head",
+      github: "",
+      linkedin: "",
+      img: azeem
+    },
+    {
+      Name: "Hamid Azeem",
+      role: "Graphics and Media Team head",
+      github: "",
+      linkedin: "",
+      img: hamid
+    }
+  ],
 ];
 
 /** Instructions

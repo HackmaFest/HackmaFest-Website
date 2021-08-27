@@ -1,6 +1,6 @@
 {
   "homepage": "https://hackmafest.tech/",
-  "name": "hackathon-website-template",
+  "name": "HackmaFest-Website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -73,11 +73,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Limbo-Hacks/Limbo-hacks-website.git"
+    "url": "git+"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Limbo-Hacks/Limbo-hacks-website/issues"
+    "url": ""
   }
 }
