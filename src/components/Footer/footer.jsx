@@ -5,8 +5,8 @@ import Dis from "./icons8-discord.svg";
 import Linked from "./icons8-linkedin-2.svg";
 import Mail from "./icons8-mail.svg";
 import DevPost from "./icons8-dev-post.svg";
-import PrivacyPolicy from "./Privacy policy.pdf";
-import TermsOfUse from "./Terms of use.pdf";
+import PrivacyPolicy from "./HackmaFest Privacy Policy.pdf";
+import TermsOfUse from "./HackmaFest Terms of use.pdf";
 import Twitter from "./icons8-twitter.svg";
 import {Btn} from "../Top-division-components/Top-division-components.jsx";
 import {SOCIALS, TOP_SECTION, FOOTER} from "../../Module/General";
@@ -15,7 +15,7 @@ function GithubTemplate(){
 
   return (
   <div class="template">
-        <a href="https://github.com/Limbo-Hacks/Hackathon-website-template">  <p> Get this template <i class="fab fa-github-alt"></i> in github <i class="fas fa-times"></i></p></a>
+        <a href="https://github.com/">  <p> Get this template <i class="fab fa-github-alt"></i> in github <i class="fas fa-times"></i></p></a>
   </div>
   )
 }
@@ -111,7 +111,7 @@ export default function Footer() {
               <p>Terms of Use</p>
             </a>
           )}
-          <p>Made with ❤️</p>
+          <p>Made with ❤️ by Mriceflame</p>
 
         </div>
       {template &&<GithubTemplate/>}
