@@ -152,6 +152,12 @@ export default function HomePage(props) {
         {FOOTER.JOIN_TEAM.required && <JoinTeam />}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
+
+        {/* ********Sponsers here ***** */}
+        <br ></br>
+        <h1>Our Sponsers Here</h1>
+        {TeamInfo.map(TeamMembers)}
+        {/* ********Team ending here ***** */}
       </Container>
       <Footer />
     </div>
