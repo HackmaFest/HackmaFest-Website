@@ -19,6 +19,7 @@ import Media from "../media/media.jsx";
 import {
   TOP_SECTION,
   TeamInfo,
+  SponserInfo,
   sponsorLogos,
   frequentlyAskedQuestions,
   FOOTER,
@@ -156,7 +157,7 @@ export default function HomePage(props) {
         {/* ********Sponsers here ***** */}
         <br ></br>
         <h1>Our Sponsers Here</h1>
-        {TeamInfo.map(TeamMembers)}
+        {SponserInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
       </Container>
       <Footer />
