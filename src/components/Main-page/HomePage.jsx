@@ -19,6 +19,7 @@ import Media from "../media/media.jsx";
 import {
   TOP_SECTION,
   TeamInfo,
+  SpeakersInfo,
   sponsorLogos,
   frequentlyAskedQuestions,
   FOOTER,
@@ -144,6 +145,12 @@ export default function HomePage(props) {
           {sponsorLogos.map(SponsorGroup)}
         </Row>
         {/* ********Sponsors ending here ***** */}
+        
+        {/* ********Speakers here ***** */}
+        <br ></br>
+        <h1>Our Speakers Here</h1>
+        {SpeakersInfo.map(TeamMembers)}
+        {/* ********Team ending here ***** */}
 
         <Birds top="120vh" left="0vh" type="" />
 
@@ -152,6 +159,7 @@ export default function HomePage(props) {
         {FOOTER.JOIN_TEAM.required && <JoinTeam />}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
+
       </Container>
       <Footer />
     </div>

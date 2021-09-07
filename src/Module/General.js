@@ -33,6 +33,7 @@ import sameer from "./Assets/teami/sameer.png";
 import awais from "./Assets/teami/awais.png"
 import hamid from "./Assets/teami/hamid.png";
 import azeem from "./Assets/teami/azeem.jpeg";
+import haris from "./Assets/sponsers/harisali.jpg"
 
 
 
@@ -268,6 +269,40 @@ const TeamInfo = [
   ],
 ];
 
+const SpeakersInfo = [
+  [
+    //Array 1
+    {
+      Name: "Farhan Ashraf",
+      role: "Lead Organizer",
+      github: "https://github.com/mriceflame",
+      linkedin: "https://www.linkedin.com/in/s4a/",
+      img: farhan
+    },
+    {
+      Name: "Haris Ali",
+      role: "Co-Lead",
+      github: "https://github.com/HarisAli-git",
+      linkedin: "https://www.linkedin.com/harisa73",
+      img: haris
+    },
+    {
+      Name: "Awais",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: awais
+    },
+    {
+      Name: "Usman Hamid",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: usman
+    }
+  ]
+];
+
 /** Instructions
  * Only put 3 logos per array inside `sponsorLogos`, you can
  * create as many arrays you want all logos will be rendered
@@ -343,6 +378,7 @@ export {
   FOOTER,
   Prizeinfo,
   sponsorLogos,
+  SpeakersInfo,
   TeamInfo,
   frequentlyAskedQuestions
 };
