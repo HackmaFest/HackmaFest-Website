@@ -269,7 +269,7 @@ const TeamInfo = [
   ],
 ];
 
-const SponserInfo = [
+const SpeakersInfo = [
   [
     //Array 1
     {
@@ -378,7 +378,7 @@ export {
   FOOTER,
   Prizeinfo,
   sponsorLogos,
-  SponserInfo,
+  SpeakersInfo,
   TeamInfo,
   frequentlyAskedQuestions
 };
