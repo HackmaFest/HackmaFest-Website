@@ -146,3 +146,6 @@ According to Owners of this code mentioned " Feel free to use it as-is or person
 Thank you Limbo Hacks for making this amazing template. 
 We have made all the changes with :heart:
 
+## Still Confused?
+For more details on customization feel free to read detailed readme on Limbo hacks own template page :
+https://github.com/Limbo-Hacks/Hackathon-website-template
