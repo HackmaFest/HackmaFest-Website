@@ -54,6 +54,10 @@ Just change `src/Module/general.js` to get your hackathon portfolio. Customize a
 
 ✔️ Sponsors & Partners.
 
+✔️ Speakers.
+
+✔️ Workshops.
+
 ✔️ Judges.
 
 ✔️ Volunteers.
@@ -142,6 +146,7 @@ npm start
 ## BASE CODE:
 The base code of the repo was cloned from Limbo hacks 8/21/2021. 
 According to Owners of this code mentioned " Feel free to use it as-is or personalize it as much as you want." , so we have customized the Website according to HackmaFest Needs. And we are happy to allow everyone to customize the website as much as they want or use it as it is for thier use. we wont claim any copy rights or anythings.
+We have so far added Speakers and Workshops Sections.
 
 Thank you Limbo Hacks for making this amazing template. 
 We have made all the changes with :heart:
