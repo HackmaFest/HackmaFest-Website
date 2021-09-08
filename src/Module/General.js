@@ -33,8 +33,8 @@ import sameer from "./Assets/teami/sameer.png";
 import awais from "./Assets/teami/awais.png"
 import hamid from "./Assets/teami/hamid.png";
 import azeem from "./Assets/teami/azeem.jpeg";
-import haris from "./Assets/sponsers/harisali.jpg"
-
+import haris from "./Assets/sponsers/harisali.jpg";
+import php from "./Assets/sessions/php.jpg";
 
 
 
@@ -269,6 +269,83 @@ const TeamInfo = [
   ],
 ];
 
+const Session = [
+  [
+    {
+      title: "Building Tech Careers through the Web Dev",
+      speaker: "Farhan Ashraf",
+      img: php,
+      role: "Chair Person, IEEE BULC",
+      date: "21/04/2021",
+      time: "8:30 PM",
+      feature1: "KickStart your programming",
+      feature2: "Booast You Portfolio",
+      feature3: "Get to Know your Php Laraval",
+    },
+
+    {
+      title: "Advanced Web Dev",
+      speaker: "Haris Ali",
+      img: php,
+      role: "Software Engineer",
+      date: "21/04/2021",
+      time: "8:30 PM",
+      feature1: "KickStart your programming",
+      feature2: "Intro to Web",
+      feature3: "Get to Know React",
+    },
+    
+    {
+      title: "Advanced Web Dev",
+      speaker: "Haris Ali",
+      img: php,
+      role: "Software Engineer",
+      date: "21/04/2021",
+      time: "8:30 PM",
+      feature1: "KickStart your programming",
+      feature2: "Intro to Web",
+      feature3: "Get to Know React",
+    },
+  ],
+  [
+    {
+      title: "Building Tech Careers through the Web Dev",
+      speaker: "Farhan Ashraf",
+      img: php,
+      role: "Chair Person, IEEE BULC",
+      date: "21/04/2021",
+      time: "8:30 PM",
+      feature1: "KickStart your programming",
+      feature2: "Booast You Portfolio",
+      feature3: "Get to Know your Php Laraval",
+    },
+
+    {
+      title: "Advanced Web Dev",
+      speaker: "Haris Ali",
+      img: php,
+      role: "Software Engineer",
+      date: "21/04/2021",
+      time: "8:30 PM",
+      feature1: "KickStart your programming",
+      feature2: "Intro to Web",
+      feature3: "Get to Know React",
+    },
+    
+    {
+      title: "Advanced Web Dev",
+      speaker: "Haris Ali",
+      img: php,
+      role: "Software Engineer",
+      date: "21/04/2021",
+      time: "8:30 PM",
+      feature1: "KickStart your programming",
+      feature2: "Intro to Web",
+      feature3: "Get to Know React",
+    },
+  ],
+];
+
 const SpeakersInfo = [
   [
     //Array 1
@@ -376,6 +453,7 @@ export {
   MIDDLE_SECTION,
   SOCIALS,
   FOOTER,
+  Session,
   Prizeinfo,
   sponsorLogos,
   SpeakersInfo,

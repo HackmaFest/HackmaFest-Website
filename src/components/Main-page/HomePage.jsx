@@ -10,6 +10,7 @@ import {Prizeinfo} from "../../Module/General";
 import {Accordion} from "../FAQ/faq.jsx";
 import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 
+import DisplaySession from "../Session/session.jsx";
 import Birds from "../Birds/birds.jsx";
 import Footer from "../Footer/footer.jsx";
 import {Member, JoinTeam} from "../team/team.jsx";
@@ -19,6 +20,7 @@ import Media from "../media/media.jsx";
 import {
   TOP_SECTION,
   TeamInfo,
+  Session,
   SpeakersInfo,
   sponsorLogos,
   frequentlyAskedQuestions,
@@ -85,7 +87,21 @@ function FrequentlyAsked(props) {
   );
 }
 
-
+function SessionWorkshops(props){
+  return (
+    <Container fluid>{
+    <Row className="members">
+      {
+      props.map(s => (
+        <Col className="" sm={12} lg={4} md={4}>
+        <DisplaySession params={ s }/>
+        </Col>
+      ))
+      }
+    </Row>
+  }</Container>
+  );
+}
 
 export default function HomePage(props) {
   return (
@@ -159,6 +175,12 @@ export default function HomePage(props) {
         {FOOTER.JOIN_TEAM.required && <JoinTeam />}
         {TeamInfo.map(TeamMembers)}
         {/* ********Team ending here ***** */}
+
+        {/* ********Sessions here ***** */}
+        <h1>Sessions & Workshops</h1>
+        <br ></br>
+        {Session.map(SessionWorkshops)}
+        {/* ********Sessions ending here ***** */}
 
       </Container>
       <Footer />
