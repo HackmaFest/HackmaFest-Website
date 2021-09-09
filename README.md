@@ -134,7 +134,7 @@ npm start
 <table>
   <tr>
      <td align="center"><a href="https://github.com/mriceflame"><img src="https://github.com/mriceflame.png?size=460" width="100px;" alt=""/><br /><sub><b>Farhan Ashraf </b></sub></a></td>
-     <td align="center"><a href="https://github.com/HarisAli-git"><img src="https://github.com/HarisAli-git.png?size=460" width="100px;" alt=""/><br /><sub><b>Farhan Ashraf </b></sub></a></td>
+     <td align="center"><a href="https://github.com/HarisAli-git"><img src="https://github.com/HarisAli-git.png?size=460" width="100px;" alt=""/><br /><sub><b>Haris Ali</b></sub></a></td>
     <td align="center"><a href="https://github.com/Abusayid693"><img src="https://github.com/Abusayid693.png?size=460" width="100px;" alt=""/><br /><sub><b>Rehan </b></sub></a></td>
     <td align="center"><a href="https://github.com/ZohebMOPO"><img src="https://github.com/ZohebMOPO.png?size=460" width="100px;" alt=""/><br /><sub><b>Zoheb</b></sub></a></td>
     <td align="center"><a href="https://github.com/adityamangal1"><img src="https://github.com/adityamangal1.png?size=460" width="100px;" alt=""/><br /><sub><b>Aditya</b></sub></a></td>
