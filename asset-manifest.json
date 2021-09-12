@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HackmaFest-Website/static/css/main.81b97eb2.chunk.css",
-    "main.js": "/HackmaFest-Website/static/js/main.58367bd8.chunk.js",
-    "main.js.map": "/HackmaFest-Website/static/js/main.58367bd8.chunk.js.map",
+    "main.js": "/HackmaFest-Website/static/js/main.f24fe0f6.chunk.js",
+    "main.js.map": "/HackmaFest-Website/static/js/main.f24fe0f6.chunk.js.map",
     "runtime-main.js": "/HackmaFest-Website/static/js/runtime-main.39bb99f5.js",
     "runtime-main.js.map": "/HackmaFest-Website/static/js/runtime-main.39bb99f5.js.map",
     "static/js/2.c19e7f58.chunk.js": "/HackmaFest-Website/static/js/2.c19e7f58.chunk.js",
@@ -51,6 +51,6 @@
     "static/js/runtime-main.39bb99f5.js",
     "static/js/2.c19e7f58.chunk.js",
     "static/css/main.81b97eb2.chunk.css",
-    "static/js/main.58367bd8.chunk.js"
+    "static/js/main.f24fe0f6.chunk.js"
   ]
 }
