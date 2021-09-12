@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/HackmaFest-Website/static/css/main.81b97eb2.chunk.css",
-    "main.js": "/HackmaFest-Website/static/js/main.2cd1d1fe.chunk.js",
-    "main.js.map": "/HackmaFest-Website/static/js/main.2cd1d1fe.chunk.js.map",
+    "main.js": "/HackmaFest-Website/static/js/main.58367bd8.chunk.js",
+    "main.js.map": "/HackmaFest-Website/static/js/main.58367bd8.chunk.js.map",
     "runtime-main.js": "/HackmaFest-Website/static/js/runtime-main.39bb99f5.js",
     "runtime-main.js.map": "/HackmaFest-Website/static/js/runtime-main.39bb99f5.js.map",
     "static/js/2.c19e7f58.chunk.js": "/HackmaFest-Website/static/js/2.c19e7f58.chunk.js",
@@ -18,7 +18,9 @@
     "static/media/awais.69d415c1.png": "/HackmaFest-Website/static/media/awais.69d415c1.png",
     "static/media/azeem.48955826.jpeg": "/HackmaFest-Website/static/media/azeem.48955826.jpeg",
     "static/media/boy.e1bb0956.png": "/HackmaFest-Website/static/media/boy.e1bb0956.png",
+    "static/media/cfc.18f32e55.png": "/HackmaFest-Website/static/media/cfc.18f32e55.png",
     "static/media/dev-black.93b89d17.png": "/HackmaFest-Website/static/media/dev-black.93b89d17.png",
+    "static/media/echoAR.4f66d3a4.png": "/HackmaFest-Website/static/media/echoAR.4f66d3a4.png",
     "static/media/egg.f445ea46.png": "/HackmaFest-Website/static/media/egg.f445ea46.png",
     "static/media/farhan.3592360f.jpg": "/HackmaFest-Website/static/media/farhan.3592360f.jpg",
     "static/media/hackmafest.7a37016b.png": "/HackmaFest-Website/static/media/hackmafest.7a37016b.png",
@@ -30,6 +32,7 @@
     "static/media/icons8-linkedin-2.cc7b992c.svg": "/HackmaFest-Website/static/media/icons8-linkedin-2.cc7b992c.svg",
     "static/media/icons8-mail.9198e6b0.svg": "/HackmaFest-Website/static/media/icons8-mail.9198e6b0.svg",
     "static/media/icons8-twitter.54043e46.svg": "/HackmaFest-Website/static/media/icons8-twitter.54043e46.svg",
+    "static/media/interview-cake.37432cbb.jpg": "/HackmaFest-Website/static/media/interview-cake.37432cbb.jpg",
     "static/media/loader.098e31c4.gif": "/HackmaFest-Website/static/media/loader.098e31c4.gif",
     "static/media/logo2.eeea9382.png": "/HackmaFest-Website/static/media/logo2.eeea9382.png",
     "static/media/logo3.665337f1.png": "/HackmaFest-Website/static/media/logo3.665337f1.png",
@@ -48,6 +51,6 @@
     "static/js/runtime-main.39bb99f5.js",
     "static/js/2.c19e7f58.chunk.js",
     "static/css/main.81b97eb2.chunk.css",
-    "static/js/main.2cd1d1fe.chunk.js"
+    "static/js/main.58367bd8.chunk.js"
   ]
 }
