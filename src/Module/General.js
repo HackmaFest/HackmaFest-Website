@@ -4,9 +4,9 @@ import replit from "./Assets/sponsorsLogos/replit.png";
 import dev from "./Assets/sponsorsLogos/dev-black.png";
 import BU from "./Assets/sponsorsLogos/BU.png";
 import hcb from "./Assets/sponsorsLogos/hackclubbank.png";
-//import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
-//import echoAR from "./Assets/sponsorsLogos/echoAR.png";
-//import cfc from "./Assets/sponsorsLogos/cfc.png";
+import interviewC from "./Assets/sponsorsLogos/interview-cake.jpg";
+import echoAR from "./Assets/sponsorsLogos/echoAR.png";
+import cfc from "./Assets/sponsorsLogos/cfc.png";
 //import pass from "./Assets/sponsorsLogos/1pass.png";
 //import glimpse from "./Assets/sponsorsLogos/glimpse.png";
 import qoom from "./Assets/sponsorsLogos/qoom.svg";
@@ -59,12 +59,12 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://www.instagram.hackmafest.tech",
+  instagram: "https://instagram.hackmafest.tech",
   discord: "https://discord.hackmafest.tech",
-  linkedin: "https://www.linkedin.hackmafest.tech/",
+  linkedin: "https://linkedin.hackmafest.tech/",
   twitter: "https://twitter.hackmafest.tech/",
   devpost: "https://devpost.hackmafest.tech/",
-  email: "mailto:hi@limbohacks.tech",
+  email: "mailto:hi@hackmafest.tech",
   mail: "hi@hackmafest.tech"
 };
 
@@ -396,9 +396,9 @@ const SpeakersInfo = [
 const sponsorLogos = [
  // [{src: qoom}, {src: Replit}, {src: egg}]
    [{src: qoom}, {src: replit}, {src: egg}], //Array 1
-  [{src: BU}, {src: hcb}, {src: dev}] //Array 2
+  [{src: BU}, {src: hcb}, {src: dev}], //Array 2
  //Array 3
- // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  [{src: interviewC}, {src: cfc}, {src: echoAR}] //Array 4
 ];
 
 /** Instructions
