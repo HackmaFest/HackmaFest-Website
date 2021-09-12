@@ -111,7 +111,7 @@ export default function Footer() {
               <p>Terms of Use</p>
             </a>
           )}
-          <p>Made with ❤️ by Mriceflame</p>
+          <a href="https://github.com/mriceflame"><p>Made with ❤️ by Mriceflame</p></a>
 
         </div>
       {template &&<GithubTemplate/>}
