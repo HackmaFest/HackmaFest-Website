@@ -305,6 +305,7 @@ const Session = [
       feature1: "KickStart your programming",
       feature2: "Intro to Web",
       feature3: "Get to Know React",
+      github: "www.github/HarisAli-git.com"
     },
   ],
   [
