@@ -2,7 +2,7 @@
 Website for HackmaFest.
 
 
-This is our code of HackmaFest website's which is a hackathon happening in October 24 th to 30th 2021.
+This is our code of HackmaFest website's which is a hackathon happening in October 25 th to 30th 2021.
 
 The website is deployed on HackmaFest.tech
 
