@@ -6,10 +6,10 @@ import {FOOTER} from "../../Module/General";
 function JoinTeam() {
   return (
     <div className="joinT">
-      <h3>Interested in joining our team </h3>
+      {/* <h3>Interested in joining our team </h3>
       <a href={FOOTER.JOIN_TEAM.src}>
         <Btn type="Join our team" overlay="Fill the form" />
-      </a>
+      </a> */}
     </div>
   );
 }
@@ -17,8 +17,11 @@ function JoinTeam() {
 function Member(props) {
   return (
     <div className="member">
+
       {console.log(props)}
-      <img src={props.img} alt="Limbo hack"></img>
+
+      <img src={props.img} alt="hackmafest"></img>
+
       <div className="members-link">
         <h3>{props.name}</h3>
         <p>{props.role}</p>
