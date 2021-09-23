@@ -367,15 +367,15 @@ const SpeakersInfo = [
     {
       Name: "Awais",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/HarisAli-git",
+      linkedin: "https://www.linkedin.com/harisa73",
       img: awais
     },
     {
       Name: "Usman Hamid",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/HarisAli-git",
+      linkedin: "https://www.linkedin.com/harisa73",
       img: usman
     }
   ]
