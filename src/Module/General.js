@@ -296,6 +296,19 @@ const Session = [
     //   feature3: "Get to Know React",
     // },
     
+
+    {
+      title: "Advanced Web Dev",
+      speaker: "Haris Ali",
+      img: php,
+      role: "Software Engineer",
+      date: "21/04/2021",
+      time: "8:30 PM",
+      feature1: "KickStart your programming",
+      feature2: "Intro to Web",
+      feature3: "Get to Know React",
+      github: "www.github/HarisAli-git.com"
+    },
     // {
     //   title: "Advanced Web Dev",
     //   speaker: "Haris Ali",
@@ -307,6 +320,7 @@ const Session = [
     //   feature2: "Intro to Web",
     //   feature3: "Get to Know React",
     // },
+
   ],
   // [
   //   {

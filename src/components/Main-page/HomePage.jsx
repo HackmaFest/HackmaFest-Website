@@ -65,7 +65,7 @@ function TeamMembers(props) {
     <Row className="members">
       {props.map(s => (
         <Col className="" sm={12} lg={4} md={4}>
-          <Member name={s.Name} role={s.role} img={s.img} />
+          <Member name={s.Name} role={s.role} img={s.img} github={s.github}/>
         </Col>
       ))}
     </Row>
@@ -165,12 +165,16 @@ export default function HomePage(props) {
           <br ></br>
         <Row className="speakersection">
         <h1>Our Speakers Here</h1>
+
+        {SpeakersInfo.map(TeamMembers)}
+        {/* ********Speakers ending here ***** */}
         <h2>coming soon</h2>
         {/* //{SpeakersInfo.map(TeamMembers)} */}
         </Row>
         <br ></br>
         {/* ********Team ending here ***** */}
       
+
 
         <Birds top="120vh" left="0vh" type="" />
 

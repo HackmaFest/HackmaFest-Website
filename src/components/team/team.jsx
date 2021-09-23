@@ -17,12 +17,16 @@ function JoinTeam() {
 function Member(props) {
   return (
     <div className="member">
+
+      {console.log(props)}
+
       <img src={props.img} alt="hackmafest"></img>
+
       <div className="members-link">
         <h3>{props.name}</h3>
         <p>{props.role}</p>
-        <a>
-          <i class="fab fa-2x fa-github"></i>
+        <a rel="noreferrer" target="_blank" href={props.github}>
+          <i href="www.google.com" class="fab fa-2x fa-github"></i>
         </a>
         <a>
           <i class="fab fa-2x fa-linkedin"></i>
