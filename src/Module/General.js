@@ -375,21 +375,21 @@ const SpeakersInfo = [
       Name: "Haris Ali",
       role: "Co-Lead",
       github: "https://github.com/HarisAli-git",
-      linkedin: "https://www.linkedin.com/harisa73",
+      linkedin: "https://www.linkedin.com/in/harisa73",
       img: haris
     },
     {
       Name: "Awais",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/HarisAli-git",
+      linkedin: "https://www.linkedin.com/in/harisa73",
       img: awais
     },
     {
       Name: "Usman Hamid",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/HarisAli-git",
+      linkedin: "https://www.linkedin.com/in/harisa73",
       img: usman
     }
   ]

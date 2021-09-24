@@ -29,7 +29,9 @@ function Member(props) {
           <i href="www.google.com" class="fab fa-2x fa-github"></i>
         </a>
         <a>
+        <a rel="noreferrer" target="_blank" href={props.linkedin}>
           <i class="fab fa-2x fa-linkedin"></i>
+        </a>
         </a>
       </div>
     </div>
