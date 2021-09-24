@@ -189,28 +189,28 @@ const TeamInfo = [
       img: farhan
     },
     {
-      Name: "Awais",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: awais
-    },
-    {
       Name: "Usman Hamid",
       role: "Organizer",
       github: "",
       linkedin: "",
       img: usman
-    }
-  ],
-  [
-    //Array 2
+    },
     {
       Name: "Sameer",
       role: "Organizer",
       github: "",
       linkedin: "",
       img: sameer
+    }
+  ],
+  [
+    //Array 2
+    {
+      Name: "Hamid Azeem",
+      role: "Graphics and Media Team head",
+      github: "",
+      linkedin: "",
+      img: hamid
     },
     {
       Name: "Sidra",
@@ -457,7 +457,7 @@ const frequentlyAskedQuestions  = [
       ,
       {
         label: "What are the conduct of guidlines?",
-        content: "We strongly follow the HackClub code of conduct, Our team members will enforce this code throughout the event. "
+        content: "We strongly follow the HackClub code of conduct</a>, Our team members will enforce this code throughout the event. "
       }
     ]
   ],

@@ -166,7 +166,7 @@ export default function HomePage(props) {
         <Row className="speakersection">
         <h1>Our Speakers Here</h1>
 
-        {SpeakersInfo.map(TeamMembers)}
+        {/* {SpeakersInfo.map(TeamMembers)} */}
         {/* ********Speakers ending here ***** */}
         <h2>coming soon</h2>
         {/* //{SpeakersInfo.map(TeamMembers)} */}
