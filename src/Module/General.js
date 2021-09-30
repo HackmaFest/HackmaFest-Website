@@ -93,6 +93,10 @@ const FOOTER = {
   Terms_of_use: {
     required: true,
     src: "https://tom.hackmafest.tech"
+  },
+  Code_of_conduct: {
+    required: true,
+    src: "https://hackclub.com/conduct"
   }
 };
 
@@ -457,7 +461,7 @@ const frequentlyAskedQuestions  = [
       ,
       {
         label: "What are the conduct of guidlines?",
-        content: "We strongly follow the HackClub code of conduct</a>, Our team members will enforce this code throughout the event. "
+        content: "We strongly follow the HackClub code of conduct, Our team members will enforce this code throughout the event. To See the code of conduct please visit the Website Footer"
       }
     ]
   ],
