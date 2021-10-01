@@ -13,13 +13,16 @@ import qoom from "./Assets/sponsorsLogos/qoom.svg";
 //import sublime from "./Assets/sponsorsLogos/sublime.png";
 import egg from "./Assets/sponsorsLogos/egg.png";
 import DO from "./Assets/sponsorsLogos/DO.png";
-//import ll from "./Assets/sponsorsLogos/ll.png";
+import ll from "./Assets/sponsorsLogos/ll.png";
 //import ACF from "./Assets/sponsorsLogos/ACF.png";
-import dev from "./Assets/sponsorsLogos/egg.png";
-import DO from "./Assets/sponsorsLogos/DO.png";
-import egg from "./Assets/sponsorsLogos/egg.png";
-import DO from "./Assets/sponsorsLogos/DO.png";
-import egg from "./Assets/sponsorsLogos/egg.png";
+import devfolio from "./Assets/sponsorsLogos/Devfolio.png";
+import polygon from "./Assets/sponsorsLogos/polygon.png";
+import filecoin from "./Assets/sponsorsLogos/filecoin.png";
+import tezos from "./Assets/sponsorsLogos/tezos.png";
+import pass from "./Assets/sponsorsLogos/1pass.png";
+import celo from "./Assets/sponsorsLogos/celo.png";
+
+
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -42,7 +45,7 @@ import azeem from "./Assets/teami/azeem.jpeg";
 import haris from "./Assets/sponsers/harisali.jpg";
 import php from "./Assets/sessions/php.jpg";
 import anton from "./Assets/judges/anton.jpg";
-import tim from "./Assets/judges/tim.jpg";
+import timofey from "./Assets/judges/tim.jpg";
 
 
 
@@ -207,63 +210,15 @@ const TeamInfo = [
       img: haris
     },
     {
-      Name: "Sameer",
-      role: "Organizer",
-      github: "https://github.com/Sameer-Tahir",
-      linkedin: "https://www.linkedin.com/in/sameer-tahir-2568661b4/",
-      img: sameer
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: "Hamid Azeem",
-      role: "Graphics and Media Team head",
-      github: "",
-      linkedin: "",
-      img: hamid
-    },
-    {
       Name: "Sidra Wajid",
       role: "Head Promotions",
       github: "",
       linkedin: "https://www.linkedin.com/in/sidra-wajid-778172214/",
       img: sidra
     },
-    {
-      Name: "Tauqeer",
-      role: "Event Head",
-      github: "https://www.linkedin.com/in/muhammad-tauqeer-176a16198/",
-      linkedin: "https://www.linkedin.com/in/muhammad-tauqeer-176a16198/",
-      img: tauqeer
-    }
   ],
   [
-    //Array 3
-    {
-      Name: "Usama Rafay",
-      role: "Technical Support Team head",
-      github: "https://github.com/UsamaRaffay300",
-      linkedin: "https://www.linkedin.com/in/usama-raffay-6b6291174",
-      img: usama
-    },
-    {
-      Name: "Asim Nawaz",
-      role: "Resource Team head",
-      github: "",
-      linkedin: "",
-      img: asim
-    },
-    {
-      Name: "Taskeen Fatima",
-      role: "Community Manager",
-      github: "https://github.com/Tessfatima7",
-      linkedin: "https://www.linkedin.com/in/taskeen-fatima-6590861b0/",
-      img: taskeen
-    }
-
-  ],
-  [
+    //Array 2
     {
       Name: "Azeem Farooqi",
       role: "Content Writers Team head",
@@ -272,12 +227,57 @@ const TeamInfo = [
       img: azeem
     },
     {
-      Name: "Raza Ali",
-      role: "Social Media Team head",
-      github: "https://github.com/RazaAli5	",
+      Name: "Hamid Azeem",
+      role: "Graphics and Media Team head",
+      github: "",
       linkedin: "",
       img: hamid
+    },
+    {
+      Name: "Taskeen Fatima",
+      role: "Community Manager",
+      github: "https://github.com/Tessfatima7",
+      linkedin: "https://www.linkedin.com/in/taskeen-fatima-6590861b0/",
+      img: taskeen
     }
+  
+  ],
+  // [
+  //   //Array 3
+  //   {
+  //     Name: "Usama Rafay",
+  //     role: "Technical Support Team head",
+  //     github: "https://github.com/UsamaRaffay300",
+  //     linkedin: "https://www.linkedin.com/in/usama-raffay-6b6291174",
+  //     img: usama
+  //   },
+  //   {
+  //     Name: "Asim Nawaz",
+  //     role: "Resource Team head",
+  //     github: "",
+  //     linkedin: "",
+  //     img: asim
+  //   },
+    
+
+  // ],
+  [
+    
+    // {
+    //   Name: "Tauqeer",
+    //   role: "Event Head",
+    //   github: "https://www.linkedin.com/in/muhammad-tauqeer-176a16198/",
+    //   linkedin: "https://www.linkedin.com/in/muhammad-tauqeer-176a16198/",
+    //   img: tauqeer
+    // },
+    // {
+    //   Name: "Sameer",
+    //   role: "Organizer",
+    //   github: "https://github.com/Sameer-Tahir",
+    //   linkedin: "https://www.linkedin.com/in/sameer-tahir-2568661b4/",
+    //   img: sameer
+    // }
+    
   ],
 ];
 
@@ -376,18 +376,18 @@ const SpeakersInfo = [
   [
     //Array 1
     {
-      Name: "Farhan Ashraf",
-      role: "Lead Organizer",
+      Name: "Anton Yakutovich",
+      role: "",
       github: "https://github.com/mriceflame",
       linkedin: "https://www.linkedin.com/in/s4a/",
-      img: farhan
+      img: anton
     },
     {
-      Name: "Haris Ali",
-      role: "Co-Lead",
+      Name: "Timofey Krestyanov",
+      role: "Senior App Developer/Team Lead",
       github: "https://github.com/HarisAli-git",
-      linkedin: "https://www.linkedin.com/in/harisa73",
-      img: haris
+      linkedin: "https://www.linkedin.com/in/timofeykrestyanov/",
+      img: timofey
     },
     {
       Name: "Awais",
@@ -420,11 +420,15 @@ const SpeakersInfo = [
 // ];
 
 const sponsorLogos = [
+
+[{src: devfolio}, {src: polygon}, {src: celo}],
  // [{src: qoom}, {src: Replit}, {src: egg}]
-   [{src: qoom}, {src: replit}, {src: egg}], //Array 1
-  [{src: BU}, {src: hcb}, {src: dev}], //Array 2
+   [{src: tezos}, {src: filecoin}, {src: egg}], //Array 1
+  [{src: qoom}, {src: hcb}, {src: echoAR}], //Array 2
  //Array 3
-  [{src: interviewC}, {src: DO}, {src: echoAR}] //Array 4
+ [{src: BU}, {src: pass}, {src:interviewC}],
+  [{src:  ll}, {src: DO}, {src: dev}] //Array 4
+  //[{src: replit}] //Array 4
   //[{src: }, {src: cfc}, {src: echoAR}] //Array 4
 ];
 
