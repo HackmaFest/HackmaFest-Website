@@ -92,11 +92,11 @@ const FOOTER = {
   },
   Terms_of_use: {
     required: true,
-    src: "https://tom.hackmafest.tech"
+    src: "https://tom.hackmafest.tech/"
   },
   Code_of_conduct: {
     required: true,
-    src: "https://hackclub.com/conduct"
+    src: "https://conduct.hackmafest.tech/"
   }
 };
 

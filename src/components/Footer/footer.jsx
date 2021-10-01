@@ -113,7 +113,7 @@ export default function Footer() {
           )}
           {FOOTER.Code_of_conduct.required && (
             <a
-              href= "https://hackclub.com/conduct"
+              href= "https://conduct.hackmafest.tech/"
               target="blank"
               className="privacy-policy"
             >
