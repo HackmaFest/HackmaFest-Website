@@ -50,7 +50,7 @@ const TOP_SECTION = {
   TITLE: "HackmaFest",
   Typed_effect: ["Hack For Community", "Hack For Diversity","Hack For Inclusion","Win Awesome Prizes","Week long of Learning","Week long of Creation"],
   SHORT_DESCRIPTION:
-    "Join us on 20th October 2021 with over 500 students from across the world for a weeklong of creation, innovation, & fun. 5 days are dedicated to learning and 36 hours For hacking.",
+    "Join us on 25th October 2021 with over 500 students from across the world for a weeklong of creation, innovation, & fun. 5 days are dedicated to learning and 36 hours For hacking.",
   IMG_SRC: boy,
   DISCORD_LINK: "https://discord.hackmafest.tech/",
   JUDGES_FORM_LINK:
@@ -193,11 +193,11 @@ const TeamInfo = [
       img: farhan
     },
     {
-      Name: "Usman Hamid",
+      Name: "Haris Ali",
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: usman
+      img: haris
     },
     {
       Name: "Sameer",
