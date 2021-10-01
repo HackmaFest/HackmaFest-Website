@@ -13,8 +13,16 @@ import qoom from "./Assets/sponsorsLogos/qoom.svg";
 //import sublime from "./Assets/sponsorsLogos/sublime.png";
 import egg from "./Assets/sponsorsLogos/egg.png";
 import DO from "./Assets/sponsorsLogos/DO.png";
-//import ll from "./Assets/sponsorsLogos/ll.png";
+import ll from "./Assets/sponsorsLogos/ll.png";
 //import ACF from "./Assets/sponsorsLogos/ACF.png";
+import devfolio from "./Assets/sponsorsLogos/Devfolio.png";
+import polygon from "./Assets/sponsorsLogos/polygon.png";
+import filecoin from "./Assets/sponsorsLogos/filecoin.png";
+import tezos from "./Assets/sponsorsLogos/tezos.png";
+import pass from "./Assets/sponsorsLogos/1pass.png";
+import celo from "./Assets/sponsorsLogos/celo.png";
+
+
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -36,6 +44,8 @@ import hamid from "./Assets/teami/hamid.png";
 import azeem from "./Assets/teami/azeem.jpeg";
 import haris from "./Assets/sponsers/harisali.jpg";
 import php from "./Assets/sessions/php.jpg";
+import anton from "./Assets/judges/anton.jpg";
+import timofey from "./Assets/judges/tim.jpg";
 
 
 
@@ -50,7 +60,7 @@ const TOP_SECTION = {
   TITLE: "HackmaFest",
   Typed_effect: ["Hack For Community", "Hack For Diversity","Hack For Inclusion","Win Awesome Prizes","Week long of Learning","Week long of Creation"],
   SHORT_DESCRIPTION:
-    "Join us on 20th October 2021 with over 500 students from across the world for a weeklong of creation, innovation, & fun. 5 days are dedicated to learning and 36 hours For hacking.",
+    "Join us on 25th October 2021 with over 500 students from across the world for a weeklong of creation, innovation, & fun. 5 days are dedicated to learning and 36 hours For hacking.",
   IMG_SRC: boy,
   DISCORD_LINK: "https://discord.hackmafest.tech/",
   JUDGES_FORM_LINK:
@@ -64,7 +74,7 @@ const SOCIALS = {
   discord: "https://discord.hackmafest.tech",
   linkedin: "https://linkedin.hackmafest.tech/",
   twitter: "https://twitter.hackmafest.tech/",
-  devpost: "https://devpost.hackmafest.tech/",
+  devpost: "https://hackmafest.devfolio.co/",
   email: "mailto:hi@hackmafest.tech",
   mail: "hi@hackmafest.tech"
 };
@@ -72,7 +82,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is Hackmafest?",
   LONG_DESCRIPTION:
-    "Hackmafest is a weeklong festival to welcome beginners hacker to hackers communities and hackathons, there is 5-day in-person hackathon followed by a 36-hour long digital hackathon will be held on October 29th & 30th, We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take part to win awesome prizes and collaborate with other developers. Throughout the weekend hackers at Hackmafest will have unique opportunities to learn from each other trying hands in new technologies, on the most latest equipment provided by the organizers during the hackathon We are determined to have an all-inclusive and diverse group of students attending.",
+    "Hackmafest is a weeklong festival to welcome beginners hacker to hackers communities and hackathons, there is 7-day in-person(with limited attendees) and also Digital hackathon will be held on October 25th-31st, We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take part to win awesome prizes and collaborate with other developers. Throughout the weekend hackers at Hackmafest will have unique opportunities to learn from each other trying hands in new technologies, on the most latest equipment provided by the organizers during the hackathon We are determined to have an all-inclusive and diverse group of students attending.",
   LOGO_EFFECT: true,
   LOGO: hackmafest
 };
@@ -96,7 +106,7 @@ const FOOTER = {
   },
   Code_of_conduct: {
     required: true,
-    src: "https://hackclub.com/conduct"
+    src: "https://conduct.hackmafest.tech"
   }
 };
 
@@ -193,75 +203,27 @@ const TeamInfo = [
       img: farhan
     },
     {
-      Name: "Usman Hamid",
+      Name: "Haris Ali",
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: usman
+      img: haris
     },
     {
-      Name: "Sameer",
-      role: "Organizer",
+      Name: "Sidra Wajid",
+      role: "Head Promotions",
       github: "",
-      linkedin: "",
-      img: sameer
-    }
+      linkedin: "https://www.linkedin.com/in/sidra-wajid-778172214/",
+      img: sidra
+    },
   ],
   [
     //Array 2
     {
-      Name: "Hamid Azeem",
-      role: "Graphics and Media Team head",
-      github: "",
-      linkedin: "",
-      img: hamid
-    },
-    {
-      Name: "Sidra",
-      role: "Head Promotions",
-      github: "",
-      linkedin: "",
-      img: sidra
-    },
-    {
-      Name: "Tauqeer",
-      role: "Event Head",
-      github: "",
-      linkedin: "",
-      img: tauqeer
-    }
-  ],
-  [
-    //Array 3
-    {
-      Name: "Usama Rafay",
-      role: "Technical Support Team head",
-      github: "",
-      linkedin: "",
-      img: usama
-    },
-    {
-      Name: "Asim Nawaz",
-      role: "Resource Team head",
-      github: "",
-      linkedin: "",
-      img: asim
-    },
-    {
-      Name: "Taskeen Fatima",
-      role: "Community Manager",
-      github: "",
-      linkedin: "",
-      img: taskeen
-    }
-
-  ],
-  [
-    {
       Name: "Azeem Farooqi",
       role: "Content Writers Team head",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/azeem-farooqi-2ab588222",
       img: azeem
     },
     {
@@ -270,7 +232,52 @@ const TeamInfo = [
       github: "",
       linkedin: "",
       img: hamid
+    },
+    {
+      Name: "Taskeen Fatima",
+      role: "Community Manager",
+      github: "https://github.com/Tessfatima7",
+      linkedin: "https://www.linkedin.com/in/taskeen-fatima-6590861b0/",
+      img: taskeen
     }
+  
+  ],
+  // [
+  //   //Array 3
+  //   {
+  //     Name: "Usama Rafay",
+  //     role: "Technical Support Team head",
+  //     github: "https://github.com/UsamaRaffay300",
+  //     linkedin: "https://www.linkedin.com/in/usama-raffay-6b6291174",
+  //     img: usama
+  //   },
+  //   {
+  //     Name: "Asim Nawaz",
+  //     role: "Resource Team head",
+  //     github: "",
+  //     linkedin: "",
+  //     img: asim
+  //   },
+    
+
+  // ],
+  [
+    
+    // {
+    //   Name: "Tauqeer",
+    //   role: "Event Head",
+    //   github: "https://www.linkedin.com/in/muhammad-tauqeer-176a16198/",
+    //   linkedin: "https://www.linkedin.com/in/muhammad-tauqeer-176a16198/",
+    //   img: tauqeer
+    // },
+    // {
+    //   Name: "Sameer",
+    //   role: "Organizer",
+    //   github: "https://github.com/Sameer-Tahir",
+    //   linkedin: "https://www.linkedin.com/in/sameer-tahir-2568661b4/",
+    //   img: sameer
+    // }
+    
   ],
 ];
 
@@ -369,18 +376,18 @@ const SpeakersInfo = [
   [
     //Array 1
     {
-      Name: "Farhan Ashraf",
-      role: "Lead Organizer",
+      Name: "Anton Yakutovich",
+      role: "",
       github: "https://github.com/mriceflame",
       linkedin: "https://www.linkedin.com/in/s4a/",
-      img: farhan
+      img: anton
     },
     {
-      Name: "Haris Ali",
-      role: "Co-Lead",
+      Name: "Timofey Krestyanov",
+      role: "Senior App Developer/Team Lead",
       github: "https://github.com/HarisAli-git",
-      linkedin: "https://www.linkedin.com/in/harisa73",
-      img: haris
+      linkedin: "https://www.linkedin.com/in/timofeykrestyanov/",
+      img: timofey
     },
     {
       Name: "Awais",
@@ -413,11 +420,15 @@ const SpeakersInfo = [
 // ];
 
 const sponsorLogos = [
+
+[{src: devfolio}, {src: polygon}, {src: celo}],
  // [{src: qoom}, {src: Replit}, {src: egg}]
-   [{src: qoom}, {src: replit}, {src: egg}], //Array 1
-  [{src: BU}, {src: hcb}, {src: dev}], //Array 2
+   [{src: tezos}, {src: filecoin}, {src: egg}], //Array 1
+  [{src: qoom}, {src: hcb}, {src: echoAR}], //Array 2
  //Array 3
-  [{src: interviewC}, {src: DO}, {src: echoAR}] //Array 4
+ [{src: BU}, {src: pass}, {src:interviewC}],
+  [{src:  ll}, {src: DO}, {src: dev}] //Array 4
+  //[{src: replit}] //Array 4
   //[{src: }, {src: cfc}, {src: echoAR}] //Array 4
 ];
 
