@@ -15,6 +15,11 @@ import egg from "./Assets/sponsorsLogos/egg.png";
 import DO from "./Assets/sponsorsLogos/DO.png";
 //import ll from "./Assets/sponsorsLogos/ll.png";
 //import ACF from "./Assets/sponsorsLogos/ACF.png";
+import dev from "./Assets/sponsorsLogos/egg.png";
+import DO from "./Assets/sponsorsLogos/DO.png";
+import egg from "./Assets/sponsorsLogos/egg.png";
+import DO from "./Assets/sponsorsLogos/DO.png";
+import egg from "./Assets/sponsorsLogos/egg.png";
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
  * and import them in the above and update `src` in sponsorLogos
@@ -36,6 +41,8 @@ import hamid from "./Assets/teami/hamid.png";
 import azeem from "./Assets/teami/azeem.jpeg";
 import haris from "./Assets/sponsers/harisali.jpg";
 import php from "./Assets/sessions/php.jpg";
+import anton from "./Assets/judges/anton.jpg";
+import tim from "./Assets/judges/tim.jpg";
 
 
 
@@ -64,7 +71,7 @@ const SOCIALS = {
   discord: "https://discord.hackmafest.tech",
   linkedin: "https://linkedin.hackmafest.tech/",
   twitter: "https://twitter.hackmafest.tech/",
-  devpost: "https://devpost.hackmafest.tech/",
+  devpost: "https://hackmafest.devfolio.co/",
   email: "mailto:hi@hackmafest.tech",
   mail: "hi@hackmafest.tech"
 };
@@ -72,7 +79,7 @@ const SOCIALS = {
 const MIDDLE_SECTION = {
   TITLE: "What is Hackmafest?",
   LONG_DESCRIPTION:
-    "Hackmafest is a weeklong festival to welcome beginners hacker to hackers communities and hackathons, there is 5-day in-person hackathon followed by a 36-hour long digital hackathon will be held on October 29th & 30th, We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take part to win awesome prizes and collaborate with other developers. Throughout the weekend hackers at Hackmafest will have unique opportunities to learn from each other trying hands in new technologies, on the most latest equipment provided by the organizers during the hackathon We are determined to have an all-inclusive and diverse group of students attending.",
+    "Hackmafest is a weeklong festival to welcome beginners hacker to hackers communities and hackathons, there is 7-day in-person(with limited attendees) and also Digital hackathon will be held on October 25th-31st, We call for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take part to win awesome prizes and collaborate with other developers. Throughout the weekend hackers at Hackmafest will have unique opportunities to learn from each other trying hands in new technologies, on the most latest equipment provided by the organizers during the hackathon We are determined to have an all-inclusive and diverse group of students attending.",
   LOGO_EFFECT: true,
   LOGO: hackmafest
 };
@@ -96,7 +103,7 @@ const FOOTER = {
   },
   Code_of_conduct: {
     required: true,
-    src: "https://hackclub.com/conduct"
+    src: "https://conduct.hackmafest.tech"
   }
 };
 
@@ -202,8 +209,8 @@ const TeamInfo = [
     {
       Name: "Sameer",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/Sameer-Tahir",
+      linkedin: "https://www.linkedin.com/in/sameer-tahir-2568661b4/",
       img: sameer
     }
   ],
@@ -217,17 +224,17 @@ const TeamInfo = [
       img: hamid
     },
     {
-      Name: "Sidra",
+      Name: "Sidra Wajid",
       role: "Head Promotions",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/sidra-wajid-778172214/",
       img: sidra
     },
     {
       Name: "Tauqeer",
       role: "Event Head",
-      github: "",
-      linkedin: "",
+      github: "https://www.linkedin.com/in/muhammad-tauqeer-176a16198/",
+      linkedin: "https://www.linkedin.com/in/muhammad-tauqeer-176a16198/",
       img: tauqeer
     }
   ],
@@ -236,8 +243,8 @@ const TeamInfo = [
     {
       Name: "Usama Rafay",
       role: "Technical Support Team head",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/UsamaRaffay300",
+      linkedin: "https://www.linkedin.com/in/usama-raffay-6b6291174",
       img: usama
     },
     {
@@ -250,8 +257,8 @@ const TeamInfo = [
     {
       Name: "Taskeen Fatima",
       role: "Community Manager",
-      github: "",
-      linkedin: "",
+      github: "https://github.com/Tessfatima7",
+      linkedin: "https://www.linkedin.com/in/taskeen-fatima-6590861b0/",
       img: taskeen
     }
 
@@ -261,13 +268,13 @@ const TeamInfo = [
       Name: "Azeem Farooqi",
       role: "Content Writers Team head",
       github: "",
-      linkedin: "",
+      linkedin: "https://www.linkedin.com/in/azeem-farooqi-2ab588222",
       img: azeem
     },
     {
-      Name: "Hamid Azeem",
-      role: "Graphics and Media Team head",
-      github: "",
+      Name: "Raza Ali",
+      role: "Social Media Team head",
+      github: "https://github.com/RazaAli5	",
       linkedin: "",
       img: hamid
     }
