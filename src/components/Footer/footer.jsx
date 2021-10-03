@@ -29,6 +29,14 @@ export default function Footer() {
 
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
   }, []);
 
   const listenScrollEvent = e => {
@@ -74,10 +82,11 @@ export default function Footer() {
           </div>
         </div>
         <div className="Register_a">
-          <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-            <Btn type="Register" overlay="Fill the form" />
-          </a>
-          {FOOTER.VOLUNTEERING_FORM.required && (
+                <div
+          class="apply-button" 
+        data-button-theme="light"
+        ></div>
+        {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
             </a>

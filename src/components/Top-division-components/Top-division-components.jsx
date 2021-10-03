@@ -46,9 +46,11 @@ function Myinfo() {
         <Btn class="sponsor_btn" type="Judges" overlay="Fill the form" />
       </a>
 
-      <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-        {" "}
-        <Btn class="register" type="Register " overlay="Hackers registration" />
+      <a className="Register_a">
+        <div
+          class="apply-button" 
+        data-button-theme="light"
+        ></div>
       </a>
     </div>
   );
