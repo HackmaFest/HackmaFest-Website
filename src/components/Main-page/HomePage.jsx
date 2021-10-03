@@ -194,8 +194,9 @@ export default function HomePage(props) {
         <Row className="speakersection">
         {/* ********Sessions here ***** */}
         <h1>Sessions & Workshops</h1>
+        <h2>coming soon</h2>
         <br ></br>
-        {Session.map(SessionWorkshops)}
+        {/* {Session.map(SessionWorkshops)} */}
         {/* ********Sessions ending here ***** */}
         <br ></br>
 
