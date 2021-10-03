@@ -377,31 +377,17 @@ const SpeakersInfo = [
     //Array 1
     {
       Name: "Anton Yakutovich",
-      role: "",
-      github: "https://github.com/mriceflame",
+      role: "Software Engineer",
+      github: "https://github.com/drakulavich",
       linkedin: "https://www.linkedin.com/in/s4a/",
       img: anton
     },
     {
       Name: "Timofey Krestyanov",
       role: "Senior App Developer/Team Lead",
-      github: "https://github.com/HarisAli-git",
+      github: "https://github.com/tkrest",
       linkedin: "https://www.linkedin.com/in/timofeykrestyanov/",
       img: timofey
-    },
-    {
-      Name: "Awais",
-      role: "Organizer",
-      github: "https://github.com/HarisAli-git",
-      linkedin: "https://www.linkedin.com/in/harisa73",
-      img: awais
-    },
-    {
-      Name: "Usman Hamid",
-      role: "Organizer",
-      github: "https://github.com/HarisAli-git",
-      linkedin: "https://www.linkedin.com/in/harisa73",
-      img: usman
     }
   ]
 ];
@@ -428,7 +414,7 @@ const sponsorLogos = [
  //Array 3
  [{src: BU}, {src: pass}, {src:interviewC}],
   [{src:  ll}, {src: DO}, {src: dev}] //Array 4
-  //[{src: replit}] //Array 4
+ // [{src: replit}] //Array 4
   //[{src: }, {src: cfc}, {src: echoAR}] //Array 4
 ];
 
