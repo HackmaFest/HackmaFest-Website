@@ -83,16 +83,18 @@ export default function Footer() {
           </div>
         </div>
         <div className="Register_a">
-        <div
-        class="apply-button" 
-        data-hackathon-slug="hackmafest"
-        data-button-theme="dark">
-        </div>
-        {FOOTER.VOLUNTEERING_FORM.required && (
+        <a>
+          <div
+            class="apply-button" 
+            data-hackathon-slug="hackmafest"
+            data-button-theme="dark">
+          </div>
+        </a>
+        {/* {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
             </a>
-          )}
+          )} */}
         </div>
         <div className="footer_info">
           <p>
