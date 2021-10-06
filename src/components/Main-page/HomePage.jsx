@@ -179,7 +179,7 @@ export default function HomePage(props) {
 
         {/* {SpeakersInfo.map(TeamMembers)} */}
         {/* ********Speakers ending here ***** */}
-        <h2>coming soon</h2>
+        <h2>Coming Soon</h2>
         {/* //{SpeakersInfo.map(TeamMembers)} */}
         </Row>
         <br ></br>
@@ -192,13 +192,14 @@ export default function HomePage(props) {
        
         {/* ********Sessions here ***** */}
         <Row className="speakersection">
-        {/* ********Sessions here ***** */}
         <h1>Sessions & Workshops</h1>
-        <br ></br>
+        {/* ********Sessions here *****
+        
+        {/*<br ></br>
         {Session.map(SessionWorkshops)}
         {/* ********Sessions ending here ***** */}
-        <br ></br>
-
+        {/* <br ></br> */}
+        <h2>Coming Soon</h2>
         {/* {Session.map(SessionWorkshops)} */}
         </Row>
         {/* ********Sessions ending here ***** */}

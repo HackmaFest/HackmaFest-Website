@@ -1,5 +1,6 @@
 import React,{useEffect,useState} from "react";
 import "./footer.scss";
+import "./footer.css";
 import Insta from "./icons8-instagram.svg";
 import Dis from "./icons8-discord.svg";
 import Linked from "./icons8-linkedin-2.svg";
@@ -82,10 +83,11 @@ export default function Footer() {
           </div>
         </div>
         <div className="Register_a">
-                <div
-          class="apply-button" 
-        data-button-theme="light"
-        ></div>
+        <div
+        class="apply-button" 
+        data-hackathon-slug="hackmafest"
+        data-button-theme="dark">
+        </div>
         {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
               <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
