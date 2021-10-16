@@ -234,10 +234,11 @@ const TeamInfo = [
       img: sameer
     }
   
-  ],
-  // [
-  //   //Array 3
-  //   {
+  ]
+  //,
+  //  [
+  //    //Array 3
+  //    {
   //     Name: "Usama Rafay",
   //     role: "Technical Support Team head",
   //     github: "https://github.com/UsamaRaffay300",
@@ -250,11 +251,11 @@ const TeamInfo = [
   //     github: "",
   //     linkedin: "",
   //     img: asim
-  //   },
+  //    },
     
 
   // ],
-  [
+  // [
     
     // {
     //   Name: "Tauqeer",
@@ -271,7 +272,7 @@ const TeamInfo = [
     //   img: sameer
     // }
     
-  ],
+  // ],
 ];
 
 const Session = [
