@@ -36,7 +36,7 @@ import sidra from "./Assets/teami/Sidra.png";
 import usama from "./Assets/teami/usama.png";
 import usman from "./Assets/teami/usman.png";
 import asim from "./Assets/teami/asim.png";
-import taskeen from "./Assets/teami/taskeen.png";
+//import taskeen from "./Assets/teami/taskeen.png";
 import tauqeer from "./Assets/teami/tauqeer.png";
 import sameer from "./Assets/teami/sameer.png";
 import awais from "./Assets/teami/awais.png"
@@ -130,60 +130,53 @@ const Prizeinfo = [
       type: "Prizes Detail are Coming soon",
       content:
         "There will be some amazing prizes dont worry :)"
+     },
+{
+  icon: <i class="first fas fa-4x fa-trophy"></i>,
+  type: "",
+  content:
+    "$150 for the best hack built on Ethereum, or $200 for the best hack built on Ethereum + Polygon"
+ }, 
+ {
+  icon: <i class="first fas fa-4x fa-trophy"></i>,
+  type: "",
+  content:
+    "$250 for best Dapp built on Tezos Continuity Grant opportunity for exceptional builders"
+ }
+  ],
+   [
+     //Array 2
+     {
+       icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
+       type: "Best Solo",
+       content:
+         "$250 for best Dapp built on Celo"
+     },
+   {
+       icon: <i class="first fas fa-4x fa-trophy"></i>,
+       type: " Best Beginner",
+       content: "Your project will qualify for this category if hackmafest is your first hackathon."
+     },
+    {
+     icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
+    type: "Best UI/UX",
+      content: "Project with most creative designs will be UI/UX track"
+    }
+  ],
+   [
+     //Array 3
+     {
+       icon: <i class="fas fa-4x sixth fa-male"></i>,
+       type: "Best Web App with Qoom",
+       content: "Must use qoom in your project to win this category"
+     },
+     {
+       icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
+       type: "Best use of filecoin",
+       content: "$250 for best use of IPFS and/or Filecoin And Microgrants up to 5000 USD, open grants up to 50,000 USD"
      }
-  //  {
-  //   icon: <i class="first fas fa-4x fa-trophy"></i>,
-  //   type: "overall First",
-  //   content:
-  //     "First Overall prize will be given to a project that outstands all other submissions"
-  //  }
-,
-  //   {
-  //     icon: <i class=" second fas fa-4x fa-medal"></i>,
-  //     type: "overall Second",
-  //     content:
-  //       "Second Overall prize will be given to the second best project of the hackathon"
-  //   },
-  //   {
-  //     icon: <i class=" third fas fa-4x fa-skiing-nordic"></i>,
-  //     type: "Third Second",
-  //     content:
-  //       "Best third overall project of the hackathon will win some awesome prizes"
-  //   }
-  // ],
-  // [
-  //   //Array 2
-  //   {
-  //     icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
-  //     type: "Best Solo",
-  //     content:
-  //       "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team"
-  //   },
-  //   {
-  //     icon: <i class="first fas fa-4x fa-trophy"></i>,
-  //     type: " Best Beginner",
-  //     content: "Your project will qualify for this category if hackmafest is your first hackathon."
-  //   },
-  //   {
-  //     icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
-  //     type: "Best UI/UX",
-  //     content: "Project with most creative designs will be UI/UX track"
-  //   }
-  // ],
-  // [
-  //   //Array 3
-  //   {
-  //     icon: <i class="fas fa-4x sixth fa-male"></i>,
-  //     type: "Best Web App with Qoom",
-  //     content: "Must use qoom in your project to win this category"
-  //   },
-  //   {
-  //     icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
-  //     type: "More prizes",
-  //     content: "More prizes will be revealed later"
-  //   }
-  // ]
-    ]
+   ]
+    
 ];
 
 /** Instructions
@@ -234,17 +227,18 @@ const TeamInfo = [
       img: hamid
     },
     {
-      Name: "Taskeen Fatima",
+      Name: "Sameer Tahir",
       role: "Community Manager",
-      github: "https://github.com/Tessfatima7",
-      linkedin: "https://www.linkedin.com/in/taskeen-fatima-6590861b0/",
-      img: taskeen
+      github: "https://github.com/",
+      linkedin: "https://www.linkedin.com/",
+      img: sameer
     }
   
-  ],
-  // [
-  //   //Array 3
-  //   {
+  ]
+  //,
+  //  [
+  //    //Array 3
+  //    {
   //     Name: "Usama Rafay",
   //     role: "Technical Support Team head",
   //     github: "https://github.com/UsamaRaffay300",
@@ -257,11 +251,11 @@ const TeamInfo = [
   //     github: "",
   //     linkedin: "",
   //     img: asim
-  //   },
+  //    },
     
 
   // ],
-  [
+  // [
     
     // {
     //   Name: "Tauqeer",
@@ -278,7 +272,7 @@ const TeamInfo = [
     //   img: sameer
     // }
     
-  ],
+  // ],
 ];
 
 const Session = [
@@ -378,31 +372,17 @@ const SpeakersInfo = [
     //Array 1
     {
       Name: "Anton Yakutovich",
-      role: "",
-      github: "https://github.com/mriceflame",
+      role: "Software Engineer",
+      github: "https://github.com/drakulavich",
       linkedin: "https://www.linkedin.com/in/s4a/",
       img: anton
     },
     {
       Name: "Timofey Krestyanov",
       role: "Senior App Developer/Team Lead",
-      github: "https://github.com/HarisAli-git",
+      github: "https://github.com/tkrest",
       linkedin: "https://www.linkedin.com/in/timofeykrestyanov/",
       img: timofey
-    },
-    {
-      Name: "Awais",
-      role: "Organizer",
-      github: "https://github.com/HarisAli-git",
-      linkedin: "https://www.linkedin.com/in/harisa73",
-      img: awais
-    },
-    {
-      Name: "Usman Hamid",
-      role: "Organizer",
-      github: "https://github.com/HarisAli-git",
-      linkedin: "https://www.linkedin.com/in/harisa73",
-      img: usman
     }
   ]
 ];
@@ -429,7 +409,7 @@ const sponsorLogos = [
  //Array 3
  [{src: BU}, {src: pass}, {src:interviewC}],
   [{src:  ll}, {src: DO}, {src: dev}] //Array 4
-  //[{src: replit}] //Array 4
+ // [{src: replit}] //Array 4
   //[{src: }, {src: cfc}, {src: echoAR}] //Array 4
 ];
 
