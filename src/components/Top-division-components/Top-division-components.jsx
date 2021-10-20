@@ -46,11 +46,13 @@ function Myinfo() {
         <Btn class="sponsor_btn" type="Judges" overlay="Fill the form" />
       </a> */}
 
-      <div
-        class="apply-button" 
-        data-hackathon-slug="hackmafest"
-        data-button-theme="dark"
-      ></div>
+        <a>
+          <div
+            class="apply-button" 
+            data-hackathon-slug="hackmafest"
+            data-button-theme="dark">
+          </div>
+        </a>
       </div>
   );
 }
