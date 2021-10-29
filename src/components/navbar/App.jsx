@@ -11,6 +11,7 @@ import Twitter from "../Routes/Twitter";
 import Linkedin from "../Routes/LinkedIn";
 import Instagram from "../Routes/Instagram";
 import Devpost from "../Routes/Devpost";
+import { Jumbotron, Container } from "react-bootstrap";
 
 export default class NAVBAR extends React.Component {
   state = {
@@ -40,8 +41,8 @@ export default class NAVBAR extends React.Component {
                 </Link>
               </li>
               {/* <li>
-                <Link to="/contact">
-                  <span className="links">Sponsors </span>{" "}
+                <Link to="/speakers">
+                  <span className="links">Speakers </span>{" "}
                 </Link>
               </li> */}
               {/* <li>
@@ -64,8 +65,8 @@ export default class NAVBAR extends React.Component {
             <Route path="/links">
               <HomePage />
             </Route>
-            <Route path="/projects">
-              <HomePage />
+            <Route path="/speakers">
+              <Speakers />
             </Route>
             <Route path="/">
               <HomePage />
@@ -77,12 +78,20 @@ export default class NAVBAR extends React.Component {
   }
 }
 
-function Projects() {
-  return <h2>Projects here</h2>;
+function Speakers() {
+  return (
+  <div className="jumboSpeaker">
+    <Jumbotron fluid>
+    <Container>
+      <h1>under-construction</h1>
+    </Container>
+  </Jumbotron>
+  </div>
+  );
 }
 
 function Contact() {
-  return <h2>contact info</h2>;
+  return <h1>Contact Info</h1>;
 }
 
 function Links() {
